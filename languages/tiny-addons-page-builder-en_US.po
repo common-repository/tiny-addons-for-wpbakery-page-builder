@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Tiny Addons for WPBakery Page Builder\n"
+"Language: en\n"
+
+#: 
+msgid "Addons"
+msgstr "Addons"
+
+#: 
+msgid "Image Box"
+msgstr "Image Box"
+
+#: 
+msgid "Image Box Description"
+msgstr "Create an image box with link and title."
+
+#: 
+msgid "Link"
+msgstr "Link"
+
+#: 
+msgid "Attach Image"
+msgstr "Attach Image"
+
+#: 
+msgid "Title"
+msgstr "Title"
+
+#: 
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: 
+msgid "Logo List"
+msgstr "Logo List"
+
+#: 
+msgid "Logo List Description"
+msgstr "Outputs an inline logo list."
+
+#: 
+msgid "Select Images Upload"
+msgstr "Select images for upload."
+
+#: 
+msgid "Please install WPBakery"
+msgstr "Please install <a href=\"%s\">WPBakery Page Builder</a> to use Tiny Addons."
+
+#: 
+msgid "Attach Icon Card"
+msgstr "If you want to add an icon attach it here."
+
+#: 
+msgid "Content Bottom"
+msgstr "Content that will appear at the bottom of the card."
+
+#: 
+msgid "Top CSS Properties"
+msgstr "You can edit here the appearance of the top section."
+
+#: 
+msgid "Top Section"
+msgstr "Top Section"
+
+#: 
+msgid "Card"
+msgstr "Card"
+
+#: 
+msgid "Card Description"
+msgstr "Show information in a card format."
+
+#: 
+msgid "Facebook Embed Page"
+msgstr "Widget Embed for Facebook"
+
+#: 
+msgid "Facebook Embed Page Description"
+msgstr "Official Facebook Embed Widget"
+
+#: 
+msgid "Facebook Page Name"
+msgstr "Facebook Page Name"
+
+#: 
+msgid "Facebook Page URL"
+msgstr "Link to Facebook Page. Please use full URL (i.e.: https://facebook.com/yourfacebookpage)"
+
+#: 
+msgid "CSS Properties"
+msgstr "CSS Properties"
+
+#: 
+msgid "App ID"
+msgstr "App ID"
+
+#: 
+msgid "Align Left"
+msgstr "Align Left"
+
+#: 
+msgctxt "Alineación centrada"
+msgid "Align Center"
+msgstr "Align Center"
+
+#: 
+msgctxt "Alinear a la derecha"
+msgid "Align Right"
+msgstr "Align Right"
+
+#: 
+msgid "Align Top"
+msgstr "Align Top"
+
+#: 
+msgid "Align Bottom"
+msgstr "Align Bottom"
+
+#: 
+msgid "Button"
+msgstr "Button"
+
+#: 
+msgid "Button Name"
+msgstr "Button Title"
+

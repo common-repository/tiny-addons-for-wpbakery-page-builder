@@ -1,0 +1,195 @@
+/* GENERAL */
+
+.tiny-align-text-center {
+    text-align: center;
+}
+
+.tiny-align-text-right {
+    text-align: right;
+}
+
+
+
+
+/* TINY LOGO LIST */
+
+ul.tiny-logo-inline {
+    list-style-type: none;
+    padding: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tiny-logo-inline li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+
+
+
+
+/* TINY IMAGE BOX */
+
+.tiny-image-box {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    background-color: black;
+    margin: 15px 0;
+}
+
+.tiny-image-box-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1, 1);
+    transition: .3s;
+}
+
+.tiny-image-box-bg:hover {
+    transform: scale(1.1, 1.1);
+    opacity: .7;
+}
+
+.tiny-image-box-container {
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    color: white;
+}
+
+.tiny-image-box-container h5, .tiny-image-box-container p {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.tiny-image-box-container h5 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    line-height: 1.1;
+}
+
+.tiny-image-box-container p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* TINY CARD */
+
+.tiny-card {
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin: 15px 0;
+}
+
+/* Tiny Card Top */
+
+.tiny-card-top {
+    background-color: #777;
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.tiny-card-top h5 {
+    color: white !important;
+    margin-bottom: 0;
+}
+
+.tiny-card-top-title {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+.tiny-card-top-icon {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.tiny-card-top-icon img {
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Shadow Style */
+
+.tiny-card .tiny-shadow:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%); 
+}
+
+.tiny-card .tiny-shadow .tiny-card-top-title h5 {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+/* Align BG */
+
+.tiny-card .tiny-align-bg-top {
+    background-position: center top;
+}
+
+.tiny-card .tiny-align-bg-bottom {
+    background-position: center bottom;
+}
+    
+/* Tiny Card Bottom */
+
+.tiny-card-bottom {
+    padding: 15px;
+}
+
+.tiny-card-bottom p:last-child {
+    margin-bottom: 0;
+}
+
+/* Button */
+
+.tiny-card .tiny-card-button {
+    padding-bottom: 15px;
+}
+
+.tiny-card .no-text .tiny-card-button {
+    padding-top: 15px;
+}
+
+.tiny-card .tiny-card-button a {
+    color: white;
+    background: #7e7e7e;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 0;
+    transition: .3s;
+}
+
+.tiny-card .tiny-card-button a:hover {
+    background: #464646;
+}
